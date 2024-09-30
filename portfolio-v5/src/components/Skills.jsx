@@ -24,9 +24,9 @@ const TAGS = [
   'Render',
   'Docker',
 ];
-const DURATION = 20000;
+const DURATION = 30000;
 const ROWS = 3; 
-const TAGS_PER_ROW = 8;
+const TAGS_PER_ROW = 12;
 
 const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 const shuffle = (arr) => [...arr].sort(() => 0.5 - Math.random());
