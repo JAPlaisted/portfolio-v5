@@ -8,10 +8,10 @@ const TAGS = [
   'Tailwind',
   'React',
   'Next.js',
-  'Gatsby',
+  'SCSS',
   'UI/UX',
-  'SVG',
-  'Animation',
+  'GraphQL',
+  'Node.JS',
   'Web Development',
 ];
 const DURATION = 15000;
