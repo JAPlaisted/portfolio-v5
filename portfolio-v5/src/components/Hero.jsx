@@ -234,7 +234,7 @@ const Hero = () => {
         <p>The hero is made with anime.js. Click around before scrolling!</p>
         <div className="hero-icons">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/JAPlaisted"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -242,7 +242,7 @@ const Hero = () => {
             <FaGithub size={30} />
           </a>
           <a
-            href="https://twitter.com/yourusername"
+            href="https://x.com/cssslinger"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter"
@@ -250,7 +250,7 @@ const Hero = () => {
             <FaTwitter size={30} />
           </a>
           <a
-            href="https://youtube.com/yourchannel"
+            href="https://www.youtube.com/@jonsommet"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="YouTube"
@@ -258,7 +258,7 @@ const Hero = () => {
             <FaYoutube size={30} />
           </a>
           <a
-            href="https://codepen.io/yourusername"
+            href="https://codepen.io/japlaisted"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="CodePen"
@@ -266,17 +266,17 @@ const Hero = () => {
             <FaCodepen size={30} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/jonathan-plaisted/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
             <FaLinkedin size={30} />
           </a>
-          <a href="mailto:youremail@example.com" aria-label="Email">
+          <a href="mailto:jonathan.plaisted@outlook.com" aria-label="Email">
             <FaEnvelope size={30} />
           </a>
-          <a href="/path/to/your/resume.pdf" download aria-label="Download Resume">
+          <a href="/src/assets/resume.pdf" download aria-label="Download Resume">
             <FaFileDownload size={30} />
           </a>
         </div>
