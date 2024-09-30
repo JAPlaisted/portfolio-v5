@@ -1,11 +1,10 @@
-import { FaReact } from 'react-icons/fa';
+import Hero from './components/Hero';
 import  './App.scss';
 
 function App() {
   return (
     <div className="appContainer">
-      <h1>Welcome to My Portfolio</h1>
-      <FaReact size={50} color="#61DBFB" />
+      <Hero />
     </div>
   );
 }
