@@ -16,11 +16,14 @@
 .hero-content {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(0, -50%);
   text-align: center;
   color: $text-color;
   padding: 0 1rem;
+  @media (min-width: 500px) {
+    left: 50%;
+    transform: translate(-50%, -25%);
+  }
 }
 
 .hero-content h1 {
