@@ -14,7 +14,7 @@ const TAGS = [
   'Node.JS',
   'Web Development',
 ];
-const DURATION = 15000;
+const DURATION = 20000;
 const ROWS = 3; 
 const TAGS_PER_ROW = 8;
 

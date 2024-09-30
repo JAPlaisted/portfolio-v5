@@ -2,6 +2,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import './App.scss';
+import CTA from './components/Cta';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Projects />
       <Skills />
+      <CTA />
     </div>
   );
 }
