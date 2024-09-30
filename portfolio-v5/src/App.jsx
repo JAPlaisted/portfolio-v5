@@ -8,6 +8,10 @@ function App() {
   return (
     <div className="appContainer">
       <Hero />
+      <header>
+        <h2>My Projects</h2>
+        <p>Here are some projects I have developed recently</p>
+      </header>
       <Projects />
       <Skills />
       <CTA />

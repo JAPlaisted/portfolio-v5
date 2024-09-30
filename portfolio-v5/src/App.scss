@@ -1,4 +1,21 @@
+@import './styles/variables';
+
 .appContainer {
   display: block;
   overflow: hidden;
+
+  header {
+    margin-bottom: 2rem;
+    text-align: center;
+
+    h2 {
+      font-weight: 600;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+
+      @media (min-width: 768px) {
+        font-size: 3rem;
+      }
+    }
+  }
 }
