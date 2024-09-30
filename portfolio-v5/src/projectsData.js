@@ -1,17 +1,16 @@
 const projects = [
     {
       id: 1,
-      title: 'Potato Website',
-      createdDate: 'December 2016',
-      description: "Minimalistic website showing Idaho's famous golden potatoes.",
-      likes: 128,
-      imageUrl: 'https://cdn.dribbble.com/users/77760/screenshots/2042501/potato.jpg',
-      link: '#',
+      title: 'RobotsDB',
+      techStack: 'React, Node.js, LowDB, Express',
+      description: "View a database of robots, events, and products.",
+      imageUrl: '/src/assets/robotsdb.png',
+      link: 'https://robotsdb.com/',
     },
     {
       id: 2,
       title: 'Payment App Website',
-      createdDate: 'November 2016',
+      techStack: 'React, Node.js, LowDB, Express',
       description:
         'Payment App eliminates the hassle associated with a cancelled card, fraud, or theft.',
       likes: 168,
@@ -21,7 +20,7 @@ const projects = [
     {
       id: 3,
       title: 'Book Rating Website',
-      createdDate: 'November 2016',
+      techStack: 'React, Node.js, LowDB, Express',
       description:
         'Book Rating allows users to comment, rate, and recommend their favorite books.',
       likes: 110,
@@ -31,7 +30,7 @@ const projects = [
     {
       id: 4,
       title: 'Payment Plans',
-      createdDate: 'October 2016',
+      techStack: 'React, Node.js, LowDB, Express',
       description: "Minimalistic approach to payment options on client's website.",
       likes: 100,
       imageUrl:
@@ -41,7 +40,7 @@ const projects = [
     {
         id: 5,
         title: 'Potato Website',
-        createdDate: 'December 2016',
+        techStack: 'React, Node.js, LowDB, Express',
         description: "Minimalistic website showing Idaho's famous golden potatoes.",
         likes: 128,
         imageUrl: 'https://cdn.dribbble.com/users/77760/screenshots/2042501/potato.jpg',
@@ -50,7 +49,7 @@ const projects = [
       {
         id: 6,
         title: 'Payment App Website',
-        createdDate: 'November 2016',
+        techStack: 'React, Node.js, LowDB, Express',
         description:
           'Payment App eliminates the hassle associated with a cancelled card, fraud, or theft.',
         likes: 168,

@@ -23,9 +23,10 @@ a {
   height: 430px;
   border: 1px solid #dedcdc;
   border-radius: 6px;
-  background-color: #e4f2f9;
+  background-color: $dark;
   display: flex;
   flex-direction: column;
+  padding: 4px;
 
   &:hover {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.09);
@@ -55,7 +56,7 @@ a {
   color: #5d6771;
 }
 
-.created-date {
+.tech-stack {
   margin: 10px 0;
   color: #8a8ea0;
 }
