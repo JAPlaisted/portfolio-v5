@@ -7,6 +7,7 @@ const Projects = () => {
       {projects.map((project) => (
         <a href={project.link} key={project.id} target="_blank" rel="noopener noreferrer">
           <article className="card-wrapper">
+            {/* TODO: Add video on hover */}
             <div
               className="card-image"
               style={{ backgroundImage: `url(${project.imageUrl})` }}
