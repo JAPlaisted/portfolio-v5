@@ -1,10 +1,12 @@
 import Hero from './components/Hero';
-import  './App.scss';
+import Projects from './components/Projects';
+import './App.scss';
 
 function App() {
   return (
     <div className="appContainer">
       <Hero />
+      <Projects />
     </div>
   );
 }
