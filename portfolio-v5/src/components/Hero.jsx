@@ -11,6 +11,7 @@ import {
   FaFileDownload,
 } from 'react-icons/fa';
 import '../styles/Hero.scss';
+import ScrollDown from './ScrollDown';
 
 const Hero = () => {
   const canvasRef = useRef(null);
@@ -280,6 +281,7 @@ const Hero = () => {
             <FaFileDownload size={30} />
           </a>
         </div>
+        <ScrollDown />
       </div>
     </div>
   );
