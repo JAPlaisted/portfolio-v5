@@ -4,7 +4,7 @@ const projects = [
       title: 'RobotsDB',
       techStack: 'React, Node.js, LowDB, Express',
       description: "View a database of robots, events, and products.",
-      imageUrl: '/src/assets/robotsdb.png',
+      imageUrl: 'assets/robotsdb.png',
       link: 'https://robotsdb.com/',
     },
     {
@@ -13,7 +13,7 @@ const projects = [
       techStack: 'React, Browser Router, Contentful',
       description:
         'Sommet Industries marketing website',
-      imageUrl: '/src/assets/sommet-industries.png',
+      imageUrl: 'assets/sommet-industries.png',
       link: 'https://sommetindustries.com/',
     },
     {
@@ -22,7 +22,7 @@ const projects = [
       techStack: 'JavaScript, Browser APIs, Manifest',
       description:
         'Generate reports for WordPress site templates.',
-      imageUrl: '/src/assets/template-reporter.png',
+      imageUrl: 'assets/template-reporter.png',
       link: 'https://chromewebstore.google.com/detail/wp-template-report-genera/kpfpomgllokecbkeicefbhnakpfpaacn?hl=en&authuser=0',
     },
     // {
