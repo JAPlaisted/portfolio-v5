@@ -59,7 +59,7 @@ const Tag = ({ text }) => (
 const Skills = () => (
   <section className="skills-section">
     <header>
-      <h2>My Skills</h2>
+      <h2>Mad Skills</h2>
       <p>Here are some technologies and tools I work with:</p>
     </header>
     <div className="tag-list">
