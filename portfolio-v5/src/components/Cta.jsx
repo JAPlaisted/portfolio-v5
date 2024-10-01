@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import colors from '../colors';
 import useInView from '../hooks/useInView.js';
-import '../styles/CTA.scss';
+import '../styles/Cta.scss';
 
 const CTA = () => {
   const ctaRef = useRef(null);
