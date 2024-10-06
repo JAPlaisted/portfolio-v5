@@ -59,8 +59,7 @@ const Tag = ({ text }) => (
 const Skills = () => (
   <section className="skills-section">
     <header>
-      <h2>Mad Skills</h2>
-      <p>Here are some technologies and tools I work with:</p>
+      <h2>Built on</h2>
     </header>
     <div className="tag-list">
       {[...new Array(ROWS)].map((_, i) => (

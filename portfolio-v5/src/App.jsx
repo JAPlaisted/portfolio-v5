@@ -9,8 +9,7 @@ function App() {
     <div className="appContainer">
       <Hero />
       <header>
-        <h2>Cool Projects</h2>
-        <p>Here are some projects I have developed recently</p>
+        <h2>Projects</h2>
       </header>
       <Projects />
       <Skills />
